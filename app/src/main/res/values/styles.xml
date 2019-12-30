@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string-array name="activities">
+        <item>We\'ve had a problem.</item>
+        <item>Ok. I got It.</item>
+        <item>Two, one, zero.</item>
+        <item>First step.</item>
+        <item>Tekst 5</item>
+        <item>Tekst 6</item>
+        <item>Tekst 7</item>
+        <item>Tekst 8</item>
+        <item>Tekst 9</item>
+        <item>Tekst 10</item>
+        <item>Tekst 11</item>
+        <item>Tekst 12</item>
+        <item>Tekst 13</item>
+        <item>Tekst 14</item>
+        <item>Tekst 15</item>
+    </string-array>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomListItem" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/customshape</item>
+        <item name="android:textColor">#542321</item>
+    </style>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+</resources>
