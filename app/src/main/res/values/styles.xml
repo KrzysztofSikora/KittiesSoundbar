@@ -8,30 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <string-array name="activities">
-        <item>We\'ve had a problem.</item>
-        <item>Ok. I got It.</item>
-        <item>Two, one, zero.</item>
-        <item>First step.</item>
-        <item>Tekst 5</item>
-        <item>Tekst 6</item>
-        <item>Tekst 7</item>
-        <item>Tekst 8</item>
-        <item>Tekst 9</item>
-        <item>Tekst 10</item>
-        <item>Tekst 11</item>
-        <item>Tekst 12</item>
-        <item>Tekst 13</item>
-        <item>Tekst 14</item>
-        <item>Tekst 15</item>
+        <item>1. A little Micky Cat</item>
+        <item>2. Hungry Denny</item>
+        <item>3. Awake sleepyhead</item>
+        <item>4. Inquisitive</item>
+        <item>5. Lion</item>
+        <item>6. Sweet Kitty</item>
+        <item>7. Micky</item>
+        <item>8. Afraid</item>
+        <item>9. Angry</item>
     </string-array>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
-
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="CustomListItem" parent="android:Widget.TextView">
@@ -42,6 +38,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_padding_top">0dp</dimen>
 
 </resources>

@@ -10,4 +10,73 @@
 
     <string name="facebook_app_id">451358855530787</string>
     <string name="fb_login_protocol_scheme">fb451358855530787</string>
+    <string name="opis">Opis</string>
+    <string name="WelcomeTitle">Sweet Kitties Soundbar</string>
+    <string name="WelcomeDescription">Share kitties purr to your friends.</string>
+    <string name="WelcomeDesc">Opis</string>
+    <string name="SoundInfo">Tap longer to share.</string>
+    <string name="BackInfo">
+        \n
+        1. Position \n
+        Title: Cat Meow 2\n
+        Uploaded: 12.08.11\n
+        License: Attribution 3.0\n
+        Recorded by Cat Stevens\n
+        \n
+        2. Position \n
+        Title: TomCat \n
+        License: Attribution 3.0 \n
+        Recorded by Mr Smith \n
+        \n
+        3. Position \n
+        Title: 6 Cat Meows\n
+        License: Attribution 3.0\n
+        Recorded by Mr Smith\n
+        \n
+        4. Position \n
+        Title: Cat Meowing 2\n
+        License: Attribution 3.0\n
+        Recorded by Mr Smith\n
+        \n
+        5. Position \n
+        Title: Lion\n
+        License: Attribution 3.0\n
+        Recorded by Mike Koenig\n
+        \n
+        6. Position \n
+        Title: Cat Meowing\n
+        Uploaded: 01.05.10\n
+        License: Attribution 3.0\n
+        Recorded by Mike Koenig\n
+        \n
+        7. Position \n
+        Title: Cat Meow\n
+        License: Attribution 3.0\n
+        Recorded by Mike Koenig\n
+        \n
+        8. Position \n
+        Title: Kitten Meow\n
+        License: Attribution 3.0\n
+        Recorded by Mike Koenig\n
+        \n
+        9. Position \n
+        Title: Cat Meow\n
+        License: Attribution 3.0\n
+        Recorded by Mike Koenig\n
+        \n
+        \n
+        The above samples come from:\n
+        http://soundbible.com\n
+        \n
+        \n
+        Images comes from:\n
+        1. https://pixabay.com/pl/photos/kitty-kot-kitten-pet-zwierz%C4%85t-551554/ \n
+        \n
+        2. https://pixabay.com/pl/photos/kitty-kot-pet-zwierz%C4%85t-%C5%82adny-4368028/ \n
+        \n
+        \n
+
+
+    </string>
+    <string name="BackLicence">Licence</string>
 </resources>
