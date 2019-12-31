@@ -84,7 +84,6 @@ public class TabSoundFragment extends Fragment {
             }
         };
 
-
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -92,7 +91,7 @@ public class TabSoundFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MediaPlayer mediaPlayer = MediaPlayer.create(mContext, items[position]);
                 mediaPlayer.start(); // no need to call prepare(); create() does that for you
-                Toast.makeText(mContext, id + " Short click", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(mContext, id + " Short click", Toast.LENGTH_SHORT).show();
             }
 
 
@@ -101,7 +100,7 @@ public class TabSoundFragment extends Fragment {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                click(position);
+                dialog(position);
                 return true;
             }
         });
@@ -131,7 +130,6 @@ public class TabSoundFragment extends Fragment {
             }
 
         });
-
     }
 
 
@@ -148,7 +146,6 @@ public class TabSoundFragment extends Fragment {
                 ShareToMessengerParams.newBuilder(uri, "audio/mpeg")
                         .setMetaData("{ \"mp3\" : \"sound\" }")
                         .build();
-
         if (mPicking) {
             // If we were launched from Messenger, we call MessengerUtils.finishShareToMessenger to return
             // the content to Messenger.
@@ -161,17 +158,6 @@ public class TabSoundFragment extends Fragment {
                     Objects.requireNonNull(this.getActivity()),
                     REQUEST_CODE_SHARE_TO_MESSENGER,
                     shareToMessengerParams);
-        }
-    }
-
-    private void click(int pos) {
-        switch (pos) {
-            case 0:
-                dialog(0);
-                break;
-            case 1:
-                dialog(1);
-                break;
         }
     }
 }
